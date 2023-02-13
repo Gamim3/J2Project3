@@ -11,8 +11,12 @@ public class Dialogue : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textComponent;
     [SerializeField] private string[] lines;
     [SerializeField] private float textSpeed;
-    private int index;
+    [SerializeField] private int index;
+    private int lineLength;
 
+
+    [SerializeField] private bool canGoToNextText;
+    private bool end;
 
     private void Start()
     {
@@ -25,43 +29,69 @@ public class Dialogue : MonoBehaviour
 
         StartCoroutine(ParseDialogue());
     }
-
+    public void SetTextSpeed(float newTextSpeed)
+    {
+        textSpeed = newTextSpeed;
+    }
     IEnumerator ParseDialogue()
     {
-        foreach (char c in lines[index].ToCharArray()) {
+        foreach (char c in lines[index].ToCharArray())
+        {
             CheckTextModifier(c);
-            yield return new WaitForSeconds(textSpeed);
-        }
-        
-    }
 
+            lineLength++;
+
+            if (lineLength == lines[index].Length)
+            {
+                end = true;
+            }
+
+            yield return new WaitForSeconds(10 / textSpeed);
+        }
+    }
     public void Button()
     {
-        print("click");
-        if (textComponent.text == lines[index]) {
+        if (end && index != lines.Length - 1)
+        {
+            if (canGoToNextText)
+            {
+                textComponent.text = null;
+                lineLength = 0;
+                index++;
+                end = false;
+                StartCoroutine(ParseDialogue());
+            }
+        }
+        else if (!end)
+        {
+            StopAllCoroutines();
             textComponent.text = null;
-            index++;
-            ParseDialogue();
-        } else {
+            foreach (char c in lines[index].ToCharArray())
+            {
+                CheckTextModifier(c);
+            }
+            end = true;
 
         }
     }
-
+    private readonly Dictionary<char, string> _textModifiers = new Dictionary<char, string>
+{
+    { '<', "<i>" },
+    { '>', "</i>" },
+    { '(', "<b>" },
+    { ')', "</b>" },
+    { '[', "<u>" },
+    { ']', "</u>" }
+};
     private void CheckTextModifier(char chars)
     {
-        if (chars == '<') {
-            textComponent.text += "<i>";
-        } else if (chars == '>') {
-            textComponent.text += "</i>";
-        } else if (chars == '(') {
-            textComponent.text += "<b>";
-        } else if (chars == ')') {
-            textComponent.text += "</b>";
-        } else if (chars == '[') {
-            textComponent.text += "<u>";
-        } else if (chars == ']') {
-            textComponent.text += "</u>";
-        } else {
+        string tag;
+        if (_textModifiers.TryGetValue(chars, out tag))
+        {
+            textComponent.text += tag;
+        }
+        else
+        {
             textComponent.text += chars;
         }
     }
