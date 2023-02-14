@@ -9,7 +9,7 @@ using Unity.VisualScripting;
 public class Dialogue : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI textComponent;
-    [SerializeField] private string[] lines;
+    [SerializeField] private List<string> lines = new List<string>();
     [SerializeField] private float textSpeed;
     [SerializeField] private int index;
     private int lineLength;
@@ -18,16 +18,35 @@ public class Dialogue : MonoBehaviour
     [SerializeField] private bool canGoToNextText;
     private bool end;
 
+    private bool bosl;
+
     private void Start()
     {
         textComponent.text = null;
-        Startdialogue();
+        
+    }
+
+    private void Update()
+    {
+        if (lines != null && !bosl)
+        {
+            bosl = true;
+            Startdialogue();
+        }
     }
     private void Startdialogue()
     {
         index = 0;
 
         StartCoroutine(ParseDialogue());
+    }
+    private void RemoveLines()
+    {
+        lines.Clear();
+    }
+    public void SetLines(string text)
+    {
+        lines.Add(text);
     }
     public void SetTextSpeed(float newTextSpeed)
     {
@@ -51,7 +70,7 @@ public class Dialogue : MonoBehaviour
     }
     public void Button()
     {
-        if (end && index != lines.Length - 1)
+        if (end && index != lines.Count - 1)
         {
             if (canGoToNextText)
             {
