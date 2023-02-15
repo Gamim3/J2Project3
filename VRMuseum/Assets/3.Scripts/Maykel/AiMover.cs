@@ -25,8 +25,6 @@ public class AiMover : MonoBehaviour
     }
     private void Update() {
 
-        
-
         if (start)
         {
             if (movePosition != null && canChange)
@@ -67,7 +65,7 @@ public class AiMover : MonoBehaviour
             if (manager.agents[i] == this.transform) {
                 manager.UnOccupie(movePosition);
                 movePosition = null;
-                manager.ChangeAgentPosition(i);
+                manager.ChangeAgentPositionNPC(i);
             }
         }
     }
@@ -78,7 +76,7 @@ public class AiMover : MonoBehaviour
         {
             if (manager.agents[i] == this.transform)
             {
-                manager.ChangeAgentPosition(i);
+                manager.ChangeAgentPositionNPC(i);
                 start = true;
             }
         }

@@ -245,9 +245,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85626c8915e8f5b45a0ed58148d43434, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  guidePos: {fileID: 0}
+  manager: {fileID: 0}
+  agentMesh: {fileID: 0}
   dialogue: {fileID: 684530431}
-  movePos: {fileID: 1358678350}
-  dialogueS: []
+  dialogueTime: 0
+  guideLines: []
+  guideClips: []
+  canChangePos: 0
 --- !u!4 &531451412
 Transform:
   m_ObjectHideFlags: 0
@@ -494,10 +499,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e597408c5c9208b48ad0a826ec61717f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  guide: {fileID: 0}
   textComponent: {fileID: 2071574611}
   lines: []
+  clips: []
   textSpeed: 100
   index: 0
+  textSpeedIsClipSpeed: 0
   canGoToNextText: 0
 --- !u!4 &684530432
 Transform:
@@ -1373,6 +1381,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   posText: {fileID: 11400000, guid: ef6c963ac84793f4b9d00dfc796455f5, type: 2}
+  thisPosIndex: 0
+  manager: {fileID: 0}
+  freeRoam: 0
 --- !u!4 &1358678352
 Transform:
   m_ObjectHideFlags: 0
@@ -1783,15 +1794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df173027ded005945b6cc6d5d9d26ec8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movePositions:
-  - {fileID: 795977504}
-  - {fileID: 2118772139}
-  - {fileID: 417083107}
-  - {fileID: 1360629123}
-  - {fileID: 239854681}
-  - {fileID: 86797305}
-  - {fileID: 1436784103}
-  - {fileID: 1772541303}
+  agentPos: []
   agents:
   - {fileID: 1408483533}
   - {fileID: 1264646155}
@@ -1799,6 +1802,10 @@ MonoBehaviour:
   isOccupied: 0000000000000000
   randomPos: 0
   alloc: 0
+  guidePos: []
+  guide: {fileID: 0}
+  guideIndex: 0
+  tour: 0
 --- !u!4 &1494758878
 Transform:
   m_ObjectHideFlags: 0

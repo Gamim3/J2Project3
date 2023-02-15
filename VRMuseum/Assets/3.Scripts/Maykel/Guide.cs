@@ -1,27 +1,60 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Guide : MonoBehaviour
 {
+    
+    [SerializeField] private Transform guidePos;
+
+    [SerializeField] private AiManager manager;
+    [SerializeField] private NavMeshAgent agentMesh;    
+
     [SerializeField] private Dialogue dialogue;
-    [SerializeField] private GameObject movePos;
+    [SerializeField] private float dialogueTime;
+    public List<string> guideLines = new List<string>();
+    //public List<AudioClip> guideClips = new List<AudioClip>();
 
-
-
-
-    public List<string> dialogueS = new List<string>();
-
-    private void Start()
+    public bool canChangePos;
+    private void OnEnable()
     {
-       GetDialogue();
+        agentMesh = GetComponent<NavMeshAgent>();
     }
-    private void GetDialogue()
+
+    private void GetDialogue(Transform newPosition)
     {
-        for (int i = 0; i < movePos.GetComponent<MovePosition>().posText.text.Length; i++)
+        print("getdialogue");
+        for (int i = 0; i < newPosition.GetComponent<MovePosition>().posText.text.Length; i++)
         {
-            dialogueS.Add(movePos.GetComponent<MovePosition>().posText.text[i]);
-            dialogue.SetLines(dialogueS[i]);
+            guideLines.Add(newPosition.GetComponent<MovePosition>().posText.text[i]);
+            //guideClips.Add(newPosition.GetComponent<MovePosition>().posText.audios[i]);
+            dialogue.SetDialogue(guideLines[i]);
+            //dialogue.SetDialogue(guideLines[i], guideClips[i]);
         }
+    }
+
+    public void RemoveDialogue()
+    {
+        guideLines.RemoveRange(0, guideLines.Count);
+    }
+    private void Update()
+    {
+        if (canChangePos)
+        {
+            manager.ChangePosGuide();
+            
+            canChangePos = false;
+        }
+       
+    }
+    public void MoveToPos(Transform newPosition)
+    {
+        agentMesh.destination = newPosition.position;
+        print(newPosition.position.x + " " + newPosition.position.z);
+
+        GetDialogue(newPosition);
+
+        dialogue.Startdialogue();
     }
 }

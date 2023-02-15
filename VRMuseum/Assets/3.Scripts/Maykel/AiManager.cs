@@ -5,27 +5,51 @@ using UnityEngine;
 using UnityEngine.AI;
 public class AiManager : MonoBehaviour
 {
-    [SerializeField] private Transform[] movePositions;
+    [SerializeField] private Transform[] agentPos;
     [SerializeField] public Transform[] agents;
     [SerializeField] private bool[] isOccupied;
     [SerializeField] private int randomPos;
-
     [SerializeField] private bool alloc;
-    private void Update() {
-        // Check if movePosition is occupied
-        // Make look direction correct depending on what the position is
-        // Randomize Positions
 
+    [SerializeField] private Transform[] guidePos;
+    [SerializeField] private Transform guide;
+    [SerializeField] public int guideIndex;
+    [SerializeField] private bool tour;
+    [SerializeField] private Dialogue dialogue;
+    public void ChangePosGuide()
+    {
+        if (guideIndex >= guidePos.Length)
+        {
+            tour = false;
+            dialogue.canGoToNextText = false;
+            guideIndex--;
+        }
 
-        
+        guide.GetComponent<Guide>().MoveToPos(guidePos[guideIndex]);
+
+        if (tour)
+        {
+            guideIndex++;
+        }
+        else
+        {
+            for (int i = 0; i < guidePos.Length; i++)
+            {
+                guidePos[i].GetComponent<MovePosition>().freeRoam = true;
+            }
+        }
     }
-    public void ChangeAgentPosition(int i)
+    public void ResetTour()
+    {
+        guideIndex = 0;
+    }
+    public void ChangeAgentPositionNPC(int i)
     {
         if (agents[i].GetComponent<AiMover>().movePosition == null && agents[i].GetComponent<AiMover>().canChange) {
 
             GetRandomPos();
 
-            agents[i].GetComponent<AiMover>().movePosition = movePositions[randomPos];
+            agents[i].GetComponent<AiMover>().movePosition = agentPos[randomPos];
             print("BAbA");
             isOccupied[randomPos] = true;
 
@@ -34,10 +58,10 @@ public class AiManager : MonoBehaviour
     private void GetRandomPos()
     {
         print("randompos");
-        randomPos = Random.Range(0, movePositions.Length);
+        randomPos = Random.Range(0, agentPos.Length);
         int ass = 0;
 
-        for (int i = 0; i < movePositions.Length; i++)
+        for (int i = 0; i < agentPos.Length; i++)
         {
             if (isOccupied[i])
             {
@@ -66,9 +90,9 @@ public class AiManager : MonoBehaviour
     }
     public void UnOccupie(Transform position)
     {
-        for (int i = 0; i < movePositions.Length; i++)
+        for (int i = 0; i < agentPos.Length; i++)
         {
-            if (movePositions[i].position == position.position)
+            if (agentPos[i].position == position.position)
             {
                 isOccupied[i] = false;
             }

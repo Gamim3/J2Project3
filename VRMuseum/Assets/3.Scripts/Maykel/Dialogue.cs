@@ -8,43 +8,44 @@ using Unity.VisualScripting;
 
 public class Dialogue : MonoBehaviour
 {
+    [SerializeField] private Guide guide;
     [SerializeField] private TextMeshProUGUI textComponent;
     [SerializeField] private List<string> lines = new List<string>();
+    [SerializeField] private List<AudioClip> clips = new List<AudioClip>();
     [SerializeField] private float textSpeed;
     [SerializeField] private int index;
     private int lineLength;
 
+    [SerializeField] private bool textSpeedIsClipSpeed; 
 
-    [SerializeField] private bool canGoToNextText;
-    private bool end;
-
-    private bool bosl;
+    public bool canGoToNextText;
+    [SerializeField] private bool end;
 
     private void Start()
     {
         textComponent.text = null;
-        
     }
-
-    private void Update()
-    {
-        if (lines != null && !bosl)
-        {
-            bosl = true;
-            Startdialogue();
-        }
-    }
-    private void Startdialogue()
+    public void Startdialogue()
     {
         index = 0;
 
         StartCoroutine(ParseDialogue());
     }
-    private void RemoveLines()
+    private void RemoveDialogue()
     {
-        lines.Clear();
+        textComponent.text = null;
+        lines.RemoveRange(0, lines.Count);
+        guide.RemoveDialogue();
+
+        //clips.Clear();
     }
-    public void SetLines(string text)
+
+    //public void SetDialogue(string text, AudioClip voice)
+    //{
+    //    lines.Add(text);
+    //    clips.Add(voice);
+    //}
+    public void SetDialogue(string text)
     {
         lines.Add(text);
     }
@@ -63,9 +64,18 @@ public class Dialogue : MonoBehaviour
             if (lineLength == lines[index].Length)
             {
                 end = true;
+                
             }
 
-            yield return new WaitForSeconds(10 / textSpeed);
+
+            if (textSpeedIsClipSpeed)
+            {
+                yield return new WaitForSeconds(clips[index].length);
+            } 
+            else
+            {
+                yield return new WaitForSeconds(10 / textSpeed);
+            }
         }
     }
     public void Button()
@@ -74,6 +84,7 @@ public class Dialogue : MonoBehaviour
         {
             if (canGoToNextText)
             {
+                print("q");
                 textComponent.text = null;
                 lineLength = 0;
                 index++;
@@ -83,8 +94,10 @@ public class Dialogue : MonoBehaviour
         }
         else if (!end)
         {
+            print("Q");
             StopAllCoroutines();
             textComponent.text = null;
+            index++;
             foreach (char c in lines[index].ToCharArray())
             {
                 CheckTextModifier(c);
@@ -92,7 +105,14 @@ public class Dialogue : MonoBehaviour
             end = true;
 
         }
+
+        if (end && index == lines.Count -1)
+        {            
+            RemoveDialogue();
+            guide.canChangePos = true;
+        }
     }
+
     private readonly Dictionary<char, string> _textModifiers = new Dictionary<char, string>
 {
     { '<', "<i>" },
