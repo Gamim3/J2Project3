@@ -10,12 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d60d738bb44535547a2cc1506f0ce6fe, type: 3}
-  m_Name: AR
+  m_Name: Visualaization
   m_EditorClassIdentifier: 
-  text:
-  - sup
-  - how you doin? im doing [f]<i>n(e)
-  - great i hope...
-  - ...
-  - damn
+  text: []
   audios: []

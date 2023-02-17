@@ -36,7 +36,7 @@ public class Dialogue : MonoBehaviour
         textComponent.text = null;
         lines.RemoveRange(0, lines.Count);
         guide.RemoveDialogue();
-
+        
         //clips.Clear();
     }
 
