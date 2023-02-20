@@ -10,7 +10,6 @@ public class CharUX : MonoBehaviour
     [SerializeField] private ContinuousTurnProviderBase smoothTurn;
     [SerializeField] private SnapTurnProviderBase snapTurn;
 
-
     private void Start()
     {
         teleport.enabled = true;
