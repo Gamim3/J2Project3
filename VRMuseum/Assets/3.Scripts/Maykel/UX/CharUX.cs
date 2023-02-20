@@ -35,4 +35,13 @@ public class CharUX : MonoBehaviour
         snapTurn.enabled = true;
         smoothTurn.enabled = false;
     }
+    public void Dropdown(int index)
+    {
+        switch(index)
+        {
+            case 0: snapTurn.turnAmount = 15; print("15"); break;
+            case 1: snapTurn.turnAmount = 45; print("45"); break;
+            case 2: snapTurn.turnAmount = 90; print("90"); break;
+        }
+    }
 }
