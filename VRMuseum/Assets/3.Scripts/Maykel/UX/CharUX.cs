@@ -24,11 +24,13 @@ public class CharUX : MonoBehaviour
     public void MovementBTN()
     {
         movement.enabled = true;
+        dialogue.teleport = false;
         teleport.enabled = false;
     }
     public void TeleportBTN()
     {
         teleport.enabled = true;
+        dialogue.teleport = true;
         movement.enabled = false;
     }
     public void SmoothTurnBTN()

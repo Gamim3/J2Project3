@@ -20,7 +20,7 @@ public class Dialogue : MonoBehaviour
 
     public bool canGoToNextText;
     [SerializeField] private bool end;
-
+    public bool teleport;
     private void Start()
     {
         textComponent.text = null;
