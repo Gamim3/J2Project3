@@ -45,6 +45,10 @@ public class Dialogue : MonoBehaviour
     //    lines.Add(text);
     //    clips.Add(voice);
     //}
+    public void TextSpeedClipSpeed()
+    {
+        textSpeedIsClipSpeed =! textSpeedIsClipSpeed;
+    }
     public void SetDialogue(string text)
     {
         lines.Add(text);

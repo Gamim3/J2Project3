@@ -14,6 +14,8 @@ public class CharUX : MonoBehaviour
 
     [SerializeField] private AudioMixer mixer;
     [SerializeField] private int audioStep;
+
+    [SerializeField] private Dialogue dialogue;
     private void Start()
     {
         teleport.enabled = true;
@@ -79,4 +81,9 @@ public class CharUX : MonoBehaviour
             case 1: mixer.SetFloat("MyMixTape", Mathf.Log10(audioStep) * 20); break;
         }
     }
+    public void SetDialougeClipSpeed()
+    {
+        dialogue.TextSpeedClipSpeed();
+    }
+
 }

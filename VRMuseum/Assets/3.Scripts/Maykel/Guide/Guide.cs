@@ -51,7 +51,6 @@ public class Guide : MonoBehaviour
     public void MoveToPos(Transform newPosition)
     {
         agentMesh.destination = newPosition.position;
-        print(newPosition.position.x + " " + newPosition.position.z);
 
         GetDialogue(newPosition);
 
