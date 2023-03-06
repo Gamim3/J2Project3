@@ -454,6 +454,7 @@ MonoBehaviour:
   posText: {fileID: 11400000, guid: d319e7cca13be9745bdfde252a67232b, type: 2}
   thisPosIndex: 1
   manager: {fileID: 776573826}
+  teleportAnchor: {fileID: 0}
   freeRoam: 0
 --- !u!4 &413362880
 Transform:
@@ -710,6 +711,7 @@ MonoBehaviour:
   posText: {fileID: 11400000, guid: ef6c963ac84793f4b9d00dfc796455f5, type: 2}
   thisPosIndex: 0
   manager: {fileID: 776573826}
+  teleportAnchor: {fileID: 0}
   freeRoam: 0
 --- !u!1 &759487178
 GameObject:
@@ -1674,7 +1676,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 824315755}
   m_HandleRect: {fileID: 557451562}
   m_Direction: 0
-  m_MinValue: 0.001
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 0.001
