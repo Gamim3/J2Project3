@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 54cf0651bd36b794eb1362f0622e941a, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -178,9 +178,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -266,6 +274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &21767334 stripped
@@ -350,6 +362,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum ceiling 45 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
 --- !u!4 &31817181 stripped
@@ -416,6 +432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum ceiling 45 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
 --- !u!4 &38379889 stripped
@@ -481,6 +501,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
       propertyPath: m_Name
       value: Museum wall 45 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
@@ -928,9 +952,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -1010,6 +1042,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -1095,6 +1131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum ceiling (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 504db5b405ccde542b52b111907f9304, type: 3}
 --- !u!4 &113980252 stripped
@@ -1160,6 +1200,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -1241,9 +1285,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -1328,6 +1380,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
       propertyPath: m_Name
       value: Museum ceiling 45 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
@@ -1479,6 +1535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &147645085 stripped
@@ -1562,6 +1622,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
       propertyPath: m_Name
       value: Museum wall 45 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
@@ -1818,6 +1882,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -2380,6 +2448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum ceiling 45 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
 --- !u!4 &222132711 stripped
@@ -2445,6 +2517,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -2534,6 +2610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &240122435 stripped
@@ -2617,6 +2697,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -2702,6 +2786,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &242563046 stripped
@@ -2786,6 +2874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &244021222 stripped
@@ -2869,6 +2961,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
       propertyPath: m_Name
       value: Museum wall 45 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
@@ -3034,9 +3130,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -3206,6 +3310,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &280187723 stripped
@@ -3290,6 +3398,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &282976129 stripped
@@ -3370,9 +3482,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -3458,6 +3578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum ceiling (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 504db5b405ccde542b52b111907f9304, type: 3}
 --- !u!4 &293498506 stripped
@@ -3527,6 +3651,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -3615,6 +3743,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -3784,6 +3916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &312553154 stripped
@@ -3868,6 +4004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &325185727 stripped
@@ -3948,9 +4088,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -4032,9 +4180,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -4204,6 +4360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &361793356 stripped
@@ -4368,9 +4528,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -4459,6 +4627,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -4628,6 +4800,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &391011060 stripped
@@ -4716,6 +4892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!1 &393288094 stripped
@@ -4794,6 +4974,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -4879,6 +5063,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &408720385 stripped
@@ -4962,6 +5150,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
       propertyPath: m_Name
       value: Museum wall 45 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
@@ -5131,6 +5323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &444651027 stripped
@@ -5219,6 +5415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &451870250 stripped
@@ -5302,6 +5502,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -5391,6 +5595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &470970844 stripped
@@ -5471,9 +5679,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -5559,6 +5775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &485306921 stripped
@@ -5642,6 +5862,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -5811,6 +6035,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &512756557 stripped
@@ -5894,6 +6122,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -5982,6 +6214,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -6155,6 +6391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &520696285 stripped
@@ -6238,6 +6478,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
       propertyPath: m_Name
       value: Museum wall 45 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
@@ -6327,6 +6571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &528022075 stripped
@@ -6407,9 +6655,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -6491,9 +6747,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -6648,6 +6912,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
       propertyPath: m_Name
       value: Museum wall 45 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
@@ -6985,6 +7253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &584167892 stripped
@@ -7108,7 +7380,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &591109205
 Transform:
@@ -7409,6 +7681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &605652591 stripped
@@ -7581,6 +7857,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &610548124 stripped
@@ -7661,9 +7941,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -7753,6 +8041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &621798663 stripped
@@ -7837,6 +8129,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &627379631 stripped
@@ -7920,6 +8216,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -8313,6 +8613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &664331174 stripped
@@ -8495,7 +8799,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &692387549
 Transform:
@@ -9108,6 +9412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &721199278 stripped
@@ -9192,6 +9500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &734248243 stripped
@@ -9275,6 +9587,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -9448,6 +9764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &755882701 stripped
@@ -9531,6 +9851,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -9619,6 +9943,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -9933,6 +10261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &799698845 stripped
@@ -10016,6 +10348,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
       propertyPath: m_Name
       value: Museum wall 45 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
@@ -10185,6 +10521,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &807682637 stripped
@@ -10268,6 +10608,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -10353,6 +10697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &810330670 stripped
@@ -10433,9 +10781,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -10525,6 +10881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &819115496 stripped
@@ -10613,6 +10973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &821784654 stripped
@@ -10696,6 +11060,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
       propertyPath: m_Name
       value: Museum wall 45 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
@@ -11105,6 +11473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &846876859 stripped
@@ -11188,6 +11560,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
       propertyPath: m_Name
       value: Museum ceiling (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 504db5b405ccde542b52b111907f9304, type: 3}
@@ -11403,6 +11779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &858567565 stripped
@@ -11575,6 +11955,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &871802889 stripped
@@ -11658,6 +12042,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
       propertyPath: m_Name
       value: Museum ceiling 45 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
@@ -12156,9 +12544,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -12240,9 +12636,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -12496,6 +12900,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &930198462 stripped
@@ -12579,6 +12987,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
       propertyPath: m_Name
       value: Museum wall 45 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
@@ -12668,6 +13080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!1 &964137767 stripped
@@ -12743,9 +13159,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -13003,6 +13427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &990903644 stripped
@@ -13171,6 +13599,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &1006961839 stripped
@@ -13251,9 +13683,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -13342,6 +13782,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -13507,9 +13951,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -13594,6 +14046,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
       propertyPath: m_Name
       value: Museum wall 45 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
@@ -13683,6 +14139,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &1063258959 stripped
@@ -13722,7 +14182,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1075563462
 Transform:
@@ -13830,6 +14290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &1086631517 stripped
@@ -13910,9 +14374,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -14068,6 +14540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum ceiling 45 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
 --- !u!4 &1112838577 stripped
@@ -14130,9 +14606,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -14214,9 +14698,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -14386,6 +14878,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &1132557523 stripped
@@ -14466,9 +14962,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -14550,9 +15054,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -14638,6 +15150,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &1154494799 stripped
@@ -14722,6 +15238,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &1155085493 stripped
@@ -14802,9 +15322,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -14960,6 +15488,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &1166673831 stripped
@@ -15048,6 +15580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!1 &1176245336 stripped
@@ -15123,9 +15659,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -15211,6 +15755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &1194193416 stripped
@@ -15294,6 +15842,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
       propertyPath: m_Name
       value: Museum ceiling 45 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
@@ -15449,6 +16001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &1211167237 stripped
@@ -15532,6 +16088,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
       propertyPath: m_Name
       value: Museum ceiling (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 504db5b405ccde542b52b111907f9304, type: 3}
@@ -15687,6 +16247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &1227980885 stripped
@@ -15841,6 +16405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum ceiling (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 504db5b405ccde542b52b111907f9304, type: 3}
 --- !u!4 &1232982811 stripped
@@ -15987,9 +16555,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -16078,6 +16654,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -16489,6 +17069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &1293092675 stripped
@@ -16647,6 +17231,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!1 &1299602507 stripped
@@ -16722,9 +17310,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -16810,6 +17406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &1316626914 stripped
@@ -16893,6 +17493,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
       propertyPath: m_Name
       value: Museum wall 45 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
@@ -16978,6 +17582,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum ceiling (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 504db5b405ccde542b52b111907f9304, type: 3}
 --- !u!4 &1328035524 stripped
@@ -17047,6 +17655,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -17131,6 +17743,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
       propertyPath: m_Name
       value: Museum wall 45 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
@@ -17220,6 +17836,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &1344000705 stripped
@@ -17303,6 +17923,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -17388,6 +18012,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum ceiling 45 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
 --- !u!4 &1358551394 stripped
@@ -17453,6 +18081,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
       propertyPath: m_Name
       value: Museum wall 45 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
@@ -17537,6 +18169,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
       propertyPath: m_Name
       value: Museum ceiling 45 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
@@ -17684,9 +18320,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -17771,6 +18415,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
       propertyPath: m_Name
       value: Museum ceiling
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 504db5b405ccde542b52b111907f9304, type: 3}
@@ -18002,9 +18650,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -18086,9 +18742,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -18178,6 +18842,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &1441314009 stripped
@@ -18261,6 +18929,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
       propertyPath: m_Name
       value: Museum wall 45 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
@@ -18430,6 +19102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum ceiling 45 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
 --- !u!4 &1469115074 stripped
@@ -18496,6 +19172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum ceiling (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 504db5b405ccde542b52b111907f9304, type: 3}
 --- !u!4 &1473325446 stripped
@@ -18558,9 +19238,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -18645,6 +19333,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -18786,6 +19478,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -18941,6 +19637,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum ceiling 45
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
 --- !u!4 &1522805204 stripped
@@ -19095,6 +19795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &1529578411 stripped
@@ -19179,6 +19883,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &1532945362 stripped
@@ -19259,9 +19967,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -19343,9 +20059,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -19435,6 +20159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &1543736900 stripped
@@ -19523,6 +20251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &1565468668 stripped
@@ -19607,6 +20339,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &1584958439 stripped
@@ -19690,6 +20426,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
       propertyPath: m_Name
       value: Museum ceiling (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 504db5b405ccde542b52b111907f9304, type: 3}
@@ -19837,9 +20577,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -19928,6 +20676,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -20021,6 +20773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &1612415015 stripped
@@ -20104,6 +20860,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -20192,6 +20952,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -20351,6 +21115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &1644162467 stripped
@@ -20434,6 +21202,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -20523,6 +21295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &1654448671 stripped
@@ -20603,9 +21379,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -20687,9 +21471,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -20779,9 +21571,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -20867,6 +21667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &1717607818 stripped
@@ -20951,6 +21755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &1735570535 stripped
@@ -21031,9 +21839,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -21207,6 +22023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &1803723004 stripped
@@ -21361,6 +22181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &1823694695 stripped
@@ -21449,6 +22273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &1834906310 stripped
@@ -21532,6 +22360,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -21686,6 +22518,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -22054,6 +22890,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &1866799147 stripped
@@ -22376,6 +23216,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &1884227788 stripped
@@ -22464,6 +23308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &1885698887 stripped
@@ -22548,6 +23396,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum ceiling (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 504db5b405ccde542b52b111907f9304, type: 3}
 --- !u!4 &1892719227 stripped
@@ -22613,6 +23465,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -22786,6 +23642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &1910500318 stripped
@@ -22866,9 +23726,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -23042,6 +23910,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum Floor 2x2 (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
 --- !u!4 &1956659780 stripped
@@ -23125,6 +23997,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
       propertyPath: m_Name
       value: Museum ceiling (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 504db5b405ccde542b52b111907f9304, type: 3}
@@ -23323,6 +24199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &1967785323 stripped
@@ -23491,6 +24371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall 45 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa51277888866664399471543dfcf667, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa51277888866664399471543dfcf667, type: 3}
 --- !u!4 &1976246785 stripped
@@ -23632,6 +24516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum ceiling 45 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a7ba8c770e4474c8f530579c1de278, type: 3}
 --- !u!4 &2000791745 stripped
@@ -23694,9 +24582,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -23782,6 +24678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &2023980819 stripped
@@ -23865,6 +24765,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -23950,6 +24854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &2082640655 stripped
@@ -24033,6 +24941,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -24202,6 +25114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &2094081017 stripped
@@ -24285,6 +25201,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -24370,6 +25290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum ceiling (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 504db5b405ccde542b52b111907f9304, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 504db5b405ccde542b52b111907f9304, type: 3}
 --- !u!4 &2126497329 stripped
@@ -24435,6 +25359,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -24512,6 +25440,71 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2136182623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2136182625}
+  - component: {fileID: 2136182624}
+  m_Layer: 0
+  m_Name: Reflection Probe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!215 &2136182624
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136182623}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 0
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 128
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 110.45, y: 29.63, z: 65.39}
+  m_BoxOffset: {x: 0, y: 0, z: 0}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 1
+  m_BlendDistance: 1
+  m_HDR: 1
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 1
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
+--- !u!4 &2136182625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136182623}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.93315893, y: 4.18, z: -1.62}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2138161389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24570,6 +25563,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
       propertyPath: m_Name
       value: Museum wall (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
@@ -24651,9 +25648,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
@@ -24739,6 +25744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museum wall (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67475cb304cc76438226cc2f3c7f44c, type: 3}
 --- !u!4 &2143615969 stripped
@@ -24819,9 +25828,17 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53531f0282291da46819f9905e632d5f, type: 2}
     - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
       propertyPath: m_Name
       value: Museum Floor 2x2 (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc66e4e189f5814a8be002c856a603a, type: 3}
