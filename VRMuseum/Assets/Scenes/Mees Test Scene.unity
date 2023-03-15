@@ -13349,6 +13349,18 @@ PrefabInstance:
       propertyPath: m_RequestedTrackingOriginMode
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7367764579029458580, guid: 41db1524d61f09d4ab3321f4d7d8b697, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7367764579029458581, guid: 41db1524d61f09d4ab3321f4d7d8b697, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7367764579029458582, guid: 41db1524d61f09d4ab3321f4d7d8b697, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41db1524d61f09d4ab3321f4d7d8b697, type: 3}
 --- !u!1 &843459049 stripped
@@ -13362,7 +13374,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 843459048}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 843459049}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bf296fc962d7184ab14ad1841598d5f, type: 3}
   m_Name: 
