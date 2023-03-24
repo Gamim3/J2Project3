@@ -7,7 +7,7 @@ public class MovePosition : MonoBehaviour
     public DialogueTEXT posText;
     [SerializeField] private int thisPosIndex;
     [SerializeField] private AiManager manager;
-    [SerializeField] private GameObject teleportAnchor;
+    //[SerializeField] private GameObject teleportAnchor;
     public bool freeRoam;
     
     private void OnTriggerEnter(Collider other)
@@ -21,8 +21,8 @@ public class MovePosition : MonoBehaviour
         }
     }
 
-    public void EnableTelePort()
-    {
-        teleportAnchor.SetActive(true);
-    }
+    //public void EnableTelePort()
+    //{
+    //    teleportAnchor.SetActive(true);
+    //}
 }

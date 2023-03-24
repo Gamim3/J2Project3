@@ -12,7 +12,6 @@ public class Guide : MonoBehaviour
     [SerializeField] private NavMeshAgent agentMesh;    
 
     [SerializeField] private Dialogue dialogue;
-    [SerializeField] private float dialogueTime;
     public List<string> guideLines = new List<string>();
     //public List<AudioClip> guideClips = new List<AudioClip>();
 
@@ -42,11 +41,10 @@ public class Guide : MonoBehaviour
     {
         if (canChangePos)
         {
-            manager.ChangePosGuide();
-            
             canChangePos = false;
+            manager.ChangePosGuide();
+    
         }
-       
     }
     public void MoveToPos(Transform newPosition)
     {
