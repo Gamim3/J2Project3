@@ -7,13 +7,43 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: house
-    second: {fileID: 2100000, guid: 70ab17274ff8b3c42a1f3e61b5a149de, type: 2}
+      name: Extra
+    second: {fileID: 2100000, guid: c6d010e1c733f2a4ca7cce6ce2f4545f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: windows
-    second: {fileID: 2100000, guid: aa483540e297d304c8739049975aed48, type: 2}
+      name: Fence
+    second: {fileID: 2100000, guid: a3569ce1e5c8eb3458d300f78f94fc74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: ff01a196b14dbca45974e100b598b56e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaves
+    second: {fileID: 2100000, guid: 33ed3bca0d73dfb4db473b09bc810a5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: c6d010e1c733f2a4ca7cce6ce2f4545f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: 4b6948a1472ecfc4d9653389f71f7d62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TreeBark
+    second: {fileID: 2100000, guid: 4b6948a1472ecfc4d9653389f71f7d62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: house
+    second: {fileID: 2100000, guid: c19bc9ff5606f724c82ed85fe75381e8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
