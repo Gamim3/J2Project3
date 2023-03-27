@@ -7,20 +7,19 @@ public class Guide : MonoBehaviour
 {
     
     [SerializeField] private Transform guidePos;
-
+    [SerializeField] private Transform player;
     [SerializeField] private AiManager manager;
-    [SerializeField] private NavMeshAgent agentMesh;    
+    [SerializeField] private NavMeshAgent agentMesh;
 
     [SerializeField] private Dialogue dialogue;
     public List<string> guideLines = new List<string>();
     //public List<AudioClip> guideClips = new List<AudioClip>();
-
     public bool canChangePos;
     private void OnEnable()
     {
         agentMesh = GetComponent<NavMeshAgent>();
+        manager.ChangePosGuide();
     }
-
     private void GetDialogue(Transform newPosition)
     {
         print("getdialogue");
@@ -32,7 +31,6 @@ public class Guide : MonoBehaviour
             //dialogue.SetDialogue(guideLines[i], guideClips[i]);
         }
     }
-
     public void RemoveDialogue()
     {
         guideLines.RemoveRange(0, guideLines.Count);
@@ -41,9 +39,13 @@ public class Guide : MonoBehaviour
     {
         if (canChangePos)
         {
-            canChangePos = false;
             manager.ChangePosGuide();
-    
+            canChangePos = false;
+        }
+
+        if (guidePos.position.z == agentMesh.destination.z && guidePos.position.x == agentMesh.destination.x)
+        {
+            guidePos.LookAt(player);
         }
     }
     public void MoveToPos(Transform newPosition)
