@@ -101,13 +101,14 @@ public class Dialogue : MonoBehaviour
             print("Q");
             StopAllCoroutines();
             textComponent.text = null;
-            index++;
+            
             foreach (char c in lines[index].ToCharArray())
             {
                 CheckTextModifier(c);
             }
+            
             end = true;
-
+            return;
         }
 
         if (end && index == lines.Count -1)

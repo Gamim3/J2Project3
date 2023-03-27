@@ -26,7 +26,7 @@ public class AiManager : MonoBehaviour
         }
 
         guide.GetComponent<Guide>().MoveToPos(guidePos[guideIndex]);
-        guidePos[guideIndex].GetComponent<MovePosition>().EnableTelePort();
+        //guidePos[guideIndex].GetComponent<MovePosition>().EnableTelePort();
         if (tour)
         {
             guideIndex++;
