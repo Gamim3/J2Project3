@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.XR.Interaction.Toolkit;
-
+using TMPro;
 public class CharUX : MonoBehaviour
 {
     [SerializeField] private ContinuousMoveProviderBase movement;
@@ -14,6 +14,16 @@ public class CharUX : MonoBehaviour
 
     private bool movementType;
     private bool turnType;
+
+    [SerializeField] private TMP_Text movementTxt;
+    [SerializeField] private TMP_Text turnTxt;
+
+    [SerializeField] private string movementText;
+    [SerializeField] private string teleportText;
+
+    [SerializeField] private string snapText;
+    [SerializeField] private string smoothText;
+
     private void Start()
     {
         teleport.enabled = true;
@@ -27,11 +37,15 @@ public class CharUX : MonoBehaviour
         {
             movement.enabled = true;
             teleport.enabled = false;
+
+            movementTxt.text = movementText;
         }
         else
         {
             teleport.enabled = true;
             movement.enabled = false;
+
+            movementTxt.text = teleportText;
         }
         
     }
@@ -43,11 +57,15 @@ public class CharUX : MonoBehaviour
         {
             smoothTurn.enabled = true;
             snapTurn.enabled = false;
+
+            turnTxt.text = smoothText;
         }
         else
         {
             snapTurn.enabled = true;
             smoothTurn.enabled = false;
+
+            turnTxt.text = snapText;
         }
         
     }
