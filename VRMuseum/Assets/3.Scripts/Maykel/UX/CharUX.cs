@@ -10,12 +10,10 @@ public class CharUX : MonoBehaviour
     [SerializeField] private TeleportationProvider teleport;
     [SerializeField] private ContinuousTurnProviderBase smoothTurn;
     [SerializeField] private SnapTurnProviderBase snapTurn;
-    [SerializeField] private int index;
+    private int index;
 
-    [SerializeField] private AudioMixer mixer;
-    [SerializeField] private int audioStep;
-
-    [SerializeField] private Dialogue dialogue;
+    private bool movementType;
+    private bool turnType;
     private void Start()
     {
         teleport.enabled = true;
@@ -23,25 +21,35 @@ public class CharUX : MonoBehaviour
     }
     public void MovementBTN()
     {
-        movement.enabled = true;
-        dialogue.teleport = false;
-        teleport.enabled = false;
+        movementType = !movementType;
+
+        if (movementType)
+        {
+            movement.enabled = true;
+            teleport.enabled = false;
+        }
+        else
+        {
+            teleport.enabled = true;
+            movement.enabled = false;
+        }
+        
     }
-    public void TeleportBTN()
+    public void TurnBTN()
     {
-        teleport.enabled = true;
-        dialogue.teleport = true;
-        movement.enabled = false;
-    }
-    public void SmoothTurnBTN()
-    {
-        smoothTurn.enabled = true;
-        snapTurn.enabled = false;
-    }
-    public void SnapTurnBTN()
-    {
-        snapTurn.enabled = true;
-        smoothTurn.enabled = false;
+        turnType =! turnType;
+
+        if (turnType)
+        {
+            smoothTurn.enabled = true;
+            snapTurn.enabled = false;
+        }
+        else
+        {
+            snapTurn.enabled = true;
+            smoothTurn.enabled = false;
+        }
+        
     }
     public void SnapTurnDegreesUI(int intdex)
     {
@@ -70,22 +78,4 @@ public class CharUX : MonoBehaviour
             index++;
         }
     }
-    public void SetVolumeUI(float sliderValue)
-    {
-        print(sliderValue);
-        mixer.SetFloat("MyMixTape", Mathf.Log10(sliderValue) * 20);
-    }
-    public void SetVolumeIG(int btnInt)
-    {
-        switch (btnInt)
-        {
-            case 0: mixer.SetFloat("MyMixTape", Mathf.Log10(audioStep) * 20); break;
-            case 1: mixer.SetFloat("MyMixTape", Mathf.Log10(audioStep) * 20); break;
-        }
-    }
-    public void SetDialougeClipSpeed()
-    {
-        dialogue.TextSpeedClipSpeed();
-    }
-
 }
