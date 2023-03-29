@@ -9,6 +9,8 @@ public class VrButton : MonoBehaviour
     [SerializeField] private UnityEvent onPress;
     [SerializeField] private UnityEvent onRelease;
     private GameObject presser;
+    public float buttonHight;
+    public float minHight;
 
     [SerializeField] private bool isPressed;
 
@@ -18,7 +20,7 @@ public class VrButton : MonoBehaviour
     {
         if (!isPressed)
         {
-            button.transform.localPosition = new Vector3(0, 1f, 0);
+            button.transform.localPosition = new Vector3(0, minHight, 0);
             presser = other.gameObject;
             onPress.Invoke();
             isPressed = true;
@@ -30,7 +32,7 @@ public class VrButton : MonoBehaviour
         if (other.gameObject == presser.gameObject)
         {
             BTNSound();
-            button.transform.localPosition = new Vector3(0, 1.5f, 0);
+            button.transform.localPosition = new Vector3(0, buttonHight, 0);
             onRelease.Invoke();
             isPressed = false;
         }
