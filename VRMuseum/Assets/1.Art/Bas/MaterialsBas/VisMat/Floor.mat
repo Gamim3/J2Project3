@@ -182,7 +182,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _GradientControllFloat: 0.94
+    - _GradientControllFloat: 0.62
     - _GridFadeControll: 0.46
     - _HeightTransition: 0
     - _Metallic: 0
