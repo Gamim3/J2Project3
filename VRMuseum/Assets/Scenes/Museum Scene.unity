@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.17326939, g: 0.21657816, b: 0.29862383, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -761,6 +761,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6c8a384ae4b8af4479d36a67a6b9326f, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8816f72f162e94340b3fad4ba6eceeaf, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 40c2ccccc3665634abf6b1b2ce3bdd03, type: 2}
     - target: {fileID: 919132149155446097, guid: 8816f72f162e94340b3fad4ba6eceeaf, type: 3}
       propertyPath: m_Name
       value: Sign
