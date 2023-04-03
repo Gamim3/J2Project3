@@ -12661,6 +12661,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 5713773299321903383, guid: f7d23f30d8527be498473ef82dc5a529, type: 3}
+      propertyPath: gradientControll
+      value: 27.76
+      objectReference: {fileID: 0}
     - target: {fileID: 6218859177290136138, guid: f7d23f30d8527be498473ef82dc5a529, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
