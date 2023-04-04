@@ -16,7 +16,7 @@ public class Changesimultaniuw : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        floor.SetFloat("_GradientControllFloat", gradientControll);
+        //floor.SetFloat("_GradientControllFloat", gradientControll);
         Foliage.SetFloat("_GradientControllFloat", gradientControll);
         hek.SetFloat("_GradientControllFloat", gradientControll);
         house.SetFloat("_GradientControllFloat", gradientControll);
