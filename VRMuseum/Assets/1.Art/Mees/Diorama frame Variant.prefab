@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4001089244335136257
 Transform:
@@ -186,6 +186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Diorama frame Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bf3e1bdb1182c7d4ead6453f91f0aba0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf3e1bdb1182c7d4ead6453f91f0aba0, type: 3}
 --- !u!4 &1698042072443098906 stripped
@@ -270,6 +274,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 69f4af2d6e98f834aa5fe29a5e9a7ede, type: 3}
       propertyPath: m_Name
       value: Spot (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69f4af2d6e98f834aa5fe29a5e9a7ede, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69f4af2d6e98f834aa5fe29a5e9a7ede, type: 3}
