@@ -9,4 +9,14 @@ public class ResetScene : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        print("ha");
+        if (other.tag == "Player")
+        {
+            print("ha");
+            SceneManager.LoadScene(0);
+        }        
+    }
 }
