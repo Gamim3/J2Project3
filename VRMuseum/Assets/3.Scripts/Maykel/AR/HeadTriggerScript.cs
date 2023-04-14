@@ -1,6 +1,8 @@
+using Microsoft.Unity.VisualStudio.Editor;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HeadTriggerScript : MonoBehaviour
 {
@@ -8,6 +10,7 @@ public class HeadTriggerScript : MonoBehaviour
     public MeshRenderer arbrillMesh;
     public bool brillOn;
     public GameObject holder;
+    public GameObject ui;
 
     private void Start()
     {
@@ -18,8 +21,10 @@ public class HeadTriggerScript : MonoBehaviour
         if(other.gameObject == arbrill)
         {
             brillOn = true;
+            
             arbrill.GetComponent<Rigidbody>().useGravity = false;
-            //arbrillMesh.enabled = false;
+            arbrillMesh.enabled = false;
+            ui.SetActive(true);
             holder.GetComponent<ARbrill>().RenderBlocks();
             arbrill.GetComponent<Rigidbody>().freezeRotation = true;
         }
@@ -30,7 +35,8 @@ public class HeadTriggerScript : MonoBehaviour
         {
             brillOn = false;
             arbrill.GetComponent<Rigidbody>().useGravity = true;
-            //arbrillMesh.enabled = true;
+            arbrillMesh.enabled = true;
+            ui.SetActive(false);
             holder.GetComponent<ARbrill>().NoRenderBlocks();
             arbrill.GetComponent<Rigidbody>().freezeRotation = false;
         }
