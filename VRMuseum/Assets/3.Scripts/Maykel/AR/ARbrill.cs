@@ -13,4 +13,11 @@ public class ARbrill : MonoBehaviour
             arblocks[i].enabled = true;
         }
     }
+    public void NoRenderBlocks()
+    {
+        for (int i = 0; i < arblocks.Length; i++)
+        {
+            arblocks[i].enabled = false;
+        }
+    }
 }

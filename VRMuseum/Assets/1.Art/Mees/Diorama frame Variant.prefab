@@ -184,7 +184,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: de00a9bf692a01b4eaaff5d8014b1d18, type: 2}
     - target: {fileID: 919132149155446097, guid: bf3e1bdb1182c7d4ead6453f91f0aba0, type: 3}
       propertyPath: m_Name
-      value: Diorama frame
+      value: Diorama frame Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf3e1bdb1182c7d4ead6453f91f0aba0, type: 3}
@@ -193,6 +193,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bf3e1bdb1182c7d4ead6453f91f0aba0, type: 3}
   m_PrefabInstance: {fileID: 1160258794054152433}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2079388591713406368 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bf3e1bdb1182c7d4ead6453f91f0aba0, type: 3}
+  m_PrefabInstance: {fileID: 1160258794054152433}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &4012940729445035749
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079388591713406368}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 855131390749405241, guid: bf3e1bdb1182c7d4ead6453f91f0aba0, type: 3}
 --- !u!1001 &4983926665077988594
 PrefabInstance:
   m_ObjectHideFlags: 0
