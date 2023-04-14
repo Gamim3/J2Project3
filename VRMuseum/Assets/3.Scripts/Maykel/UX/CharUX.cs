@@ -26,7 +26,7 @@ public class CharUX : MonoBehaviour
 
     private void Start()
     {
-        teleport.enabled = true;
+        movement.enabled = true;
         snapTurn.enabled = true;
     }
     public void MovementBTN()
