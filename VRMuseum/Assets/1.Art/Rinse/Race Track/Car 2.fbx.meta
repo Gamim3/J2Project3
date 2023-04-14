@@ -1,8 +1,17 @@
 fileFormatVersion: 2
-guid: 52ef694e2ff5b0144aceca266b9d123e
+guid: 268500fae1e1967479094f5a0280410e
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
+  - first:
+      74: 8802858209475278622
+    second: Cube.003|Action
+  - first:
+      74: 363513164492361224
+    second: Cube.003|Car1
+  - first:
+      74: -4505702707073360811
+    second: Cube.003|Car2
   - first:
       74: -8906869970063597199
     second: Cube.003|Cube.003Action
