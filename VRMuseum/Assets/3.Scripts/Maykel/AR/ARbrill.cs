@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class ARbrill : MonoBehaviour
 {
-    [SerializeField] private MeshRenderer[] arblocks;
+    [SerializeField] private GameObject[] arblocks;
 
     public void RenderBlocks()
     {
         for (int i = 0; i < arblocks.Length; i++)
         {
-            arblocks[i].enabled = true;
+            arblocks[i].active = true;
         }
     }
     public void NoRenderBlocks()
     {
         for (int i = 0; i < arblocks.Length; i++)
         {
-            arblocks[i].enabled = false;
+            arblocks[i].active = false;
         }
     }
 }
