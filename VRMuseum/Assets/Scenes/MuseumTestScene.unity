@@ -552,7 +552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arblocks:
-  - {fileID: 2042708871}
+  - {fileID: 874695697}
 --- !u!136 &90527624
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9596,6 +9596,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &874695697 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -4683669308469848369, guid: 46e499636ec2f87439d51ca4f21324a3, type: 3}
+  m_PrefabInstance: {fileID: 1979855142}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &876025920
 GameObject:
   m_ObjectHideFlags: 0
